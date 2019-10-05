@@ -48,6 +48,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="calc-body">
+          <h1>React Calculator</h1>
           <Output result={this.state.result} />
           <Keys buttonPressed={this.buttonPressed} />
         </div>
